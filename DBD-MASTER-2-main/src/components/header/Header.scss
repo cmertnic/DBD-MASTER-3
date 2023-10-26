@@ -1,0 +1,121 @@
+ body{
+  margin: 0;
+ }
+.header-app {
+  background-color: #282828;
+  display: flex;
+  max-width: 100%;
+  height: 97px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  }
+.main-header-txt{
+    font-family: 'Nosifer', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color: #EE8626;
+    margin-left: 118px;
+    min-width: 264px;
+    cursor: pointer;  
+    @media (max-width: 1440px) {
+      margin-left: 0;
+      margin-right: 30%;
+    } 
+    @media (max-width: 840px) {
+      margin-left: 0;
+      margin-right: 10%;
+    } 
+    @media (max-width: 640px) {
+      margin-right: 5%;
+    }
+    @media (max-width: 540px) {
+      font-size: 25px;
+      min-width: 224px;
+    } 
+}
+  .App-link {
+    color: #61dafb;
+  }
+  .header-button-txt{
+    margin: 0;
+    text-decoration: none;
+    
+  }
+  
+  .header_button_1{
+  border-radius: 20px;
+  font-size: 22px;
+  color: #EE8626;
+  background-color: #101010;
+  width: 178px;
+  border:0;
+  cursor: pointer;
+  font-family: 'Niramit', sans-serif;
+  margin-left: 687px;
+  height: 38px;
+  text-decoration: none;
+  @media (max-width: 1440px) {
+    margin-left: 10%;
+  } 
+  @media (max-width: 640px) {
+    margin-left: 1%;
+  } 
+  @media(max-width :500px) {
+    height: 30px;
+    width: 108px;
+    font-size: 17px;
+}
+}
+  
+  .header_button_1:hover{
+    background-color: #EE8626;
+    color: #000000;
+  }
+  .header_button_2{
+  border-radius: 20px;
+  font-size: 22px;
+  width: 95px;
+  color: #EE8626;
+  margin-left: 16px;
+  background-color: #101010;
+  border:0;
+  cursor: pointer;
+  font-family: 'Niramit', sans-serif;
+  height: 38px;
+  @media(max-width :500px) {
+    height: 30px;
+    width: 58px;
+    font-size: 17px;
+}
+  }
+  .header_button_2:hover{
+    background-color: #EE8626;
+    color: #000000;
+  }
+  .header_div_1{
+    display: flex;
+    align-items: center;
+    @media (max-width: 1440px)  {
+      width: 70%;
+    }
+    @media(max-width :1070px) {
+      width: 90%;
+  }
+  @media(max-width :500px) {
+    width: 92%;
+  }
+}
+.link_decor{
+text-decoration: none;
+color: #EE8626;
+}
+
+.link_decor2{
+  text-decoration: none;
+  color: #EE8626;
+}
+.link_decor2:hover{
+  text-decoration: none;
+  color: #101010;
+}

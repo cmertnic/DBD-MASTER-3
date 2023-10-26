@@ -1,0 +1,22 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    background: linear-gradient(to bottom , rgb(71, 71, 71), black);
+}
+
+.link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+.enter{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', serif;
+    font-size: 23px;
+}

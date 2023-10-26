@@ -1,0 +1,16 @@
+.registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    background: linear-gradient(to bottom , rgb(71, 71, 71), black);
+}
+
+.link{
+    // код в логин ссс
+}
+.enter{
+    color: rgb(255, 255, 255);
+}
